@@ -93,8 +93,11 @@
     cursor: pointer;
     border: transparent !important;
   }
-  .btnBuyNow:hover {
+  .btnBuyNow a{
+    text-decoration: none;
     color: #fff;
+  }
+  .btnBuyNow:hover {
     background-color: #5b53ff;
     transition: all ease 0.5s;
   }
@@ -340,8 +343,8 @@
 }
 
 #footerContanier #footerSocialIcon img {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     cursor: pointer;
 }
 
@@ -411,4 +414,21 @@
 .w{
   text-align: center;
   padding-bottom: 1px;
+}
+#footerContanier #footerSocialIcon .insta{
+  width: 45px;
+  height: 38px;
+  margin-bottom: 4px;
+}
+#footerContanier #footerSocialIcon .face{
+  width: 60px;
+  height: 45px;
+}
+#footerContanier #footerSocialIcon .twit{
+  width: 55px;
+  height: 45px;
+}
+#footerContanier #footerSocialIcon .you{
+  width: 53px;
+  height: 43px;
 }
